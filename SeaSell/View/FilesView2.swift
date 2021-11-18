@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FilesView: View {
+struct FilesView2: View {
     let columns = [
         GridItem(.flexible()),
         GridItem(.flexible()),
@@ -37,11 +37,21 @@ struct FilesView: View {
                 }
                 .padding(.vertical)
                 HStack {
-                    Image("1")
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 80, height: 80, alignment: .center)
-                        .clipShape(Circle())
+                    AsyncImage(url: URL(string: "https://cdn.dribbble.com/users/1179659/screenshots/11289411/img_9651_4x.png")) { remote in
+                        if let image = remote.image {
+                            image
+                                .resizable()
+                                .scaledToFill()
+                        }else if remote.error != nil {
+                            Image("no-image")
+                                .resizable()
+                                .scaledToFit()
+                        }else {
+                            ProgressView()
+                        }
+                    }
+                    .frame(width: 80, height: 80, alignment: .center)
+                    .clipShape(Circle())
                     VStack (alignment: .leading){
                         Group{
                             Text("Marvin")
@@ -118,8 +128,8 @@ struct FilesView: View {
     }
 }
 
-struct FilesView_Previews: PreviewProvider {
+struct FilesView2_Previews: PreviewProvider {
     static var previews: some View {
-        FilesView()
+        FilesView2()
     }
 }

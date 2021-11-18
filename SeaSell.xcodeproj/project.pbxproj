@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16292844274668480029D8E0 /* FilesView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16292843274668480029D8E0 /* FilesView2.swift */; };
 		1656707A273263F30074FD87 /* SeaSellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16567079273263F30074FD87 /* SeaSellApp.swift */; };
 		1656707C273263F30074FD87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1656707B273263F30074FD87 /* ContentView.swift */; };
 		1656707E273263F50074FD87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1656707D273263F50074FD87 /* Assets.xcassets */; };
@@ -14,11 +15,10 @@
 		16567088273265020074FD87 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16567087273265020074FD87 /* CustomTabView.swift */; };
 		1656708A273266930074FD87 /* TabButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16567089273266930074FD87 /* TabButtonView.swift */; };
 		1656708C27326EF10074FD87 /* FilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1656708B27326EF10074FD87 /* FilesView.swift */; };
-		167A35452732E17D0052D16C /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167A35442732E17D0052D16C /* testView.swift */; };
-		16AF55122732C48D00B669B4 /* SnapCrouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AF55112732C48D00B669B4 /* SnapCrouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16292843274668480029D8E0 /* FilesView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesView2.swift; sourceTree = "<group>"; };
 		16567076273263F30074FD87 /* SeaSell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeaSell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16567079273263F30074FD87 /* SeaSellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaSellApp.swift; sourceTree = "<group>"; };
 		1656707B273263F30074FD87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,8 +27,6 @@
 		16567087273265020074FD87 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		16567089273266930074FD87 /* TabButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonView.swift; sourceTree = "<group>"; };
 		1656708B27326EF10074FD87 /* FilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesView.swift; sourceTree = "<group>"; };
-		167A35442732E17D0052D16C /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
-		16AF55112732C48D00B669B4 /* SnapCrouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCrouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 				16567079273263F30074FD87 /* SeaSellApp.swift */,
 				1656707D273263F50074FD87 /* Assets.xcassets */,
 				1656707F273263F50074FD87 /* Preview Content */,
-				16AF55112732C48D00B669B4 /* SnapCrouselView.swift */,
 			);
 			path = SeaSell;
 			sourceTree = "<group>";
@@ -85,7 +82,7 @@
 				16567089273266930074FD87 /* TabButtonView.swift */,
 				1656708B27326EF10074FD87 /* FilesView.swift */,
 				16567087273265020074FD87 /* CustomTabView.swift */,
-				167A35442732E17D0052D16C /* testView.swift */,
+				16292843274668480029D8E0 /* FilesView2.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -161,12 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1656708A273266930074FD87 /* TabButtonView.swift in Sources */,
-				167A35452732E17D0052D16C /* testView.swift in Sources */,
 				16567088273265020074FD87 /* CustomTabView.swift in Sources */,
 				1656707C273263F30074FD87 /* ContentView.swift in Sources */,
 				1656707A273263F30074FD87 /* SeaSellApp.swift in Sources */,
-				16AF55122732C48D00B669B4 /* SnapCrouselView.swift in Sources */,
 				1656708C27326EF10074FD87 /* FilesView.swift in Sources */,
+				16292844274668480029D8E0 /* FilesView2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

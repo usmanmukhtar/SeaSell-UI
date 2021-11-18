@@ -16,7 +16,7 @@ struct CustomTabView: View {
                 ContentView()
                     .tag("person.crop.circle")
                 
-                FilesView()
+                FilesView2()
                     .tag("filemenu.and.selection")
             }
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
